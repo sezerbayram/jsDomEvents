@@ -78,9 +78,9 @@ formElement3.appendChild(buttonElement3);
  liElement1.style.marginTop = '70px';
  liElement2.style.marginTop = '70px';
  liElement3.style.marginTop = '70px';
- liElement1.innerHTML = 'SEZER'
- liElement2.innerHTML = 'BAYRAM'
- liElement3.innerHTML = '1996'
+ liElement1.innerHTML = 'HOMEPAGE'
+ liElement2.innerHTML = 'ABOUT US'
+ liElement3.innerHTML = 'LINKS'
   
  //li'lerin ul'ye eklenmesi
 
