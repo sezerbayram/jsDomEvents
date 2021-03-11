@@ -54,7 +54,7 @@ formElement3.appendChild(buttonElement3);
  let divForm = document.createElement('div');
       divForm.style.border = '2px solid coral';
     //  div.style.borderRadius = '200px';
-    divForm.style.marginLeft = '30px';
+    divForm.style.margin= '30px';
     divForm.className = 'col-md-4';
  
      divForm.appendChild(formElement1);
@@ -68,6 +68,7 @@ formElement3.appendChild(buttonElement3);
  //ul uretme
 
  let ulElement = document.createElement('ul');
+ ulElement.className = 'list-group'
  
 
  //li uretme
@@ -76,11 +77,13 @@ formElement3.appendChild(buttonElement3);
  let liElement2 = document.createElement('li');
  let liElement3 = document.createElement('li');
  liElement1.style.marginTop = '70px';
- liElement2.style.marginTop = '70px';
- liElement3.style.marginTop = '70px';
  liElement1.innerHTML = 'HOMEPAGE'
  liElement2.innerHTML = 'ABOUT US'
  liElement3.innerHTML = 'LINKS'
+ liElement1.className = 'list-group-item'
+ liElement2.className = 'list-group-item'
+ liElement3.className = 'list-group-item'
+ 
   
  //li'lerin ul'ye eklenmesi
 
@@ -94,7 +97,7 @@ formElement3.appendChild(buttonElement3);
   let divUl = document.createElement('div');
   divUl.className = 'col-md-4';
        divUl.style.border = '2px solid coral';
-       divUl.style.marginRight = '30px';
+       divUl.style.margin = '30px';
     //   div2.style.margin = '30px';
 
       divUl.appendChild(ulElement);
@@ -103,6 +106,7 @@ formElement3.appendChild(buttonElement3);
 
       
 let bigDiv = document.querySelector('.row');
+bigDiv.style.backgroundColor = 'powderBlue'
 
 let emptyDiv = document.createElement('div');
 emptyDiv.className = 'col-md-3'
