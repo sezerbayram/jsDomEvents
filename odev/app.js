@@ -52,10 +52,10 @@ formElement3.appendChild(buttonElement3);
 // dive eklenmesi ve div uretilmesi
 
  let divForm = document.createElement('div');
-    //  div.style.border = '2px solid coral';
+      divForm.style.border = '2px solid coral';
     //  div.style.borderRadius = '200px';
-    //  div.style.margin = '30px';
-    divForm.className = 'col-md-8';
+    divForm.style.marginLeft = '30px';
+    divForm.className = 'col-md-4';
  
      divForm.appendChild(formElement1);
      divForm.appendChild(formElement2);
@@ -92,9 +92,9 @@ formElement3.appendChild(buttonElement3);
 
 
   let divUl = document.createElement('div');
-  divUl.className = 'col-md-3';
-    //   div2.style.border = '2px solid coral';
-    //   div2.style.borderRadius = '200px';
+  divUl.className = 'col-md-4';
+       divUl.style.border = '2px solid coral';
+       divUl.style.marginRight = '30px';
     //   div2.style.margin = '30px';
 
       divUl.appendChild(ulElement);
@@ -105,7 +105,8 @@ formElement3.appendChild(buttonElement3);
 let bigDiv = document.querySelector('.row');
 
 let emptyDiv = document.createElement('div');
-emptyDiv.className = 'col-md-1'
+emptyDiv.className = 'col-md-3'
 
 bigDiv.appendChild(divForm);
+bigDiv.appendChild(emptyDiv);
 bigDiv.appendChild(divUl);
